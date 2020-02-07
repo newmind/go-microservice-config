@@ -3,3 +3,4 @@ server_name: Imageservice DEVV
 amqp_server_url: amqp://guest:guest@192.168.6.190:5672
 config_event_bus: springCloudBus
 zipkin_server_url: http://zipkin:9411
+cockroachdb_conn_url: postgresql://image_user:image_password@192.168.6.190:26257/image?sslmode=disable
